@@ -20,5 +20,5 @@ it("renders <App />", () => {
   act(() => {
     render(<LunchPickerPanel />, container);
   });
-  expect(container.textContent).toBe("Testing");
+  expect(container.textContent).toBe("Panel");
 });

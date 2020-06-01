@@ -20,5 +20,5 @@ it("renders <App />", () => {
   act(() => {
     render(<App />, container);
   });
-  expect(container.textContent).toBe("Testing");
+  expect(container.textContent).toBe("TestingPanel");
 });
