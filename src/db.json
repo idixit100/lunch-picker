@@ -1,0 +1,19 @@
+{
+  "lunchSpots": [
+    {
+      "name": "Chipotle",
+      "address": "2484 E Main St, Bexley, OH 43209",
+      "link": "https://www.chipotle.com/"
+    },
+    {
+      "name": "Northstar Cafe",
+      "address": "951 North High Street, Columbus, OH 43201",
+      "link": "https://www.thenorthstarcafe.com/"
+    },
+    {
+      "name": "Wolf's Ridge",
+      "address": "215 N 4th St, Columbus, OH 43215",
+      "link": "https://www.wolfsridgebrewing.com/"
+    }
+  ]
+}
