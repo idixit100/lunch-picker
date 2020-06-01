@@ -1,0 +1,12 @@
+.PickerContainer {
+  background: #77a6f7;
+  height: 10rem;
+  position: relative;
+  overflow: auto;
+  clip-path: polygon(
+    /* left top */ 0 0,
+    /* right top */ 100% 0,
+    /* right bottom */ 100% 90%,
+    /* left bottom */ 0 100%
+  );
+}
