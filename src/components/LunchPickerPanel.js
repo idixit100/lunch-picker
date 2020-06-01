@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/LunchPickerPanel.css";
+import "../css/LunchPickerPanel.css";
 
 function LunchPickerPanel() {
   return <div className="PickerPanel">Panel</div>;

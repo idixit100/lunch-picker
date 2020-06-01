@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/LunchRecommendationForm.css";
+import "../css/LunchRecommendationForm.css";
 
 function LunchRecomendationForm() {
   return <div className="RecommendationForm">RecommendationForm</div>;

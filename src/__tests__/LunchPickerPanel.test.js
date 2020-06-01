@@ -2,7 +2,7 @@ import React from "react";
 import { unmountComponentAtNode, render } from "react-dom";
 import { act } from "react-dom/test-utils";
 
-import LunchPickerPanel from "../LunchPickerPanel";
+import LunchPickerPanel from "../components/LunchPickerPanel";
 
 let container = null;
 beforeEach(() => {
