@@ -4,7 +4,7 @@ import LunchPickerPanel from "./LunchPickerPanel";
 
 function PickerContainer() {
   return (
-    <div class="PickerContainer">
+    <div className="PickerContainer">
       <LunchPickerPanel />
     </div>
   );
