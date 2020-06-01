@@ -2,7 +2,7 @@ import React from "react";
 import { unmountComponentAtNode, render } from "react-dom";
 import { act } from "react-dom/test-utils";
 
-import App from "../App";
+import LunchRecommendationForm from "../LunchRecommendationForm";
 
 let container = null;
 beforeEach(() => {
@@ -16,9 +16,9 @@ afterEach(() => {
   container = null;
 });
 
-it("renders <App />", () => {
+it("renders <LunchRecommendationForm />", () => {
   act(() => {
-    render(<App />, container);
+    render(<LunchRecommendationForm />, container);
   });
-  expect(container.textContent).toBe("TestingPanelRecommendationForm");
+  // expect(container.textContent).toBe("RecommendationForm");
 });
