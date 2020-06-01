@@ -1,0 +1,6 @@
+.PickerContainer {
+  background: #77a6f7;
+  height: 10rem;
+  position: relative;
+  overflow: auto;
+}
