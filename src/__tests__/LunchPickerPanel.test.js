@@ -16,7 +16,7 @@ afterEach(() => {
   container = null;
 });
 
-it("renders <App />", () => {
+it("renders <LunchPickerPanel />", () => {
   act(() => {
     render(<LunchPickerPanel />, container);
   });
