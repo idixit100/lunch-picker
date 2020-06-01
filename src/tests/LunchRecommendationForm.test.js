@@ -4,7 +4,10 @@ import { render } from "@testing-library/react";
 import LunchRecommendationForm from "../components/LunchRecommendationForm";
 
 it("renders <LunchRecommendationForm />", () => {
-  const { getByText } = render(<LunchRecommendationForm />);
+  const { getByRole, getByLabelText } = render(<LunchRecommendationForm />);
 
-  expect(getByText("RecommendationForm")).toBeTruthy();
+  expect(getByLabelText(/name/i)).toBeTruthy();
+  expect(getByLabelText(/address/i)).toBeTruthy();
+  expect(getByLabelText(/link/i)).toBeTruthy();
+  expect(getByRole("button", {name: /submit/i})).toBeTruthy();
 });

@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/App.css";
 import PickerContainer from "./PickerContainer";
-import LunchRecomendationForm from "./LunchRecommendationForm";
+import LunchRecommendationForm from "./LunchRecommendationForm";
 import NavBar from "./NavBar";
 
 export default function App() {
@@ -9,7 +9,7 @@ export default function App() {
     <div className="App">
       <NavBar />
       <PickerContainer />
-      <LunchRecomendationForm />
+      <LunchRecommendationForm />
     </div>
   );
 }
