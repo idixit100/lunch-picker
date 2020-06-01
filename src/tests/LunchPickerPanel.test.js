@@ -1,9 +1,12 @@
 import React from "react";
-import { render, fireEvent, screen, getByText, waitFor } from "@testing-library/react";
+import { render, fireEvent, screen, waitFor } from "@testing-library/react";
+import MutationObserver from '@sheerun/mutationobserver-shim'
 
 import LunchPickerPanel from "../components/LunchPickerPanel";
 import { fetchRestaurants } from "../services";
 import { fakeRestaurantDetails } from "./mock-data/restaurants"
+
+window.MutationObserver = MutationObserver
 
 jest.mock("../services");
 

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../css/LunchPickerPanel.css";
 import "../components/LunchSpotDetails";
 import LunchSpotDetails from "../components/LunchSpotDetails";
-import statusRange from "../StatusEnum"
+import statusRange from "./enums/StatusEnum"
 import { fetchRestaurants } from "../services"
 
 const pickRandomRestaurant = (restaurants) => {
