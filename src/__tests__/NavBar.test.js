@@ -2,7 +2,7 @@ import React from "react";
 import { unmountComponentAtNode, render } from "react-dom";
 import { act } from "react-dom/test-utils";
 
-import LunchRecommendationForm from "../LunchRecommendationForm";
+import NavBar from "../NavBar";
 
 let container = null;
 beforeEach(() => {
@@ -16,9 +16,9 @@ afterEach(() => {
   container = null;
 });
 
-it("renders <LunchRecommendationForm />", () => {
+it("renders <NavBar />", () => {
   act(() => {
-    render(<LunchRecommendationForm />, container);
+    render(<NavBar />, container);
   });
-  expect(container.textContent).toBe("RecommendationForm");
+  expect(container.textContent).toBe("NavBar");
 });
