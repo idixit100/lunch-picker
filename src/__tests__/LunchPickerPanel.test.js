@@ -1,24 +1,9 @@
 import React from "react";
-import { unmountComponentAtNode, render } from "react-dom";
-import { act } from "react-dom/test-utils";
+import { render } from "@testing-library/react";
 
 import LunchPickerPanel from "../components/LunchPickerPanel";
 
-let container = null;
-beforeEach(() => {
-  container = document.createElement("div");
-  document.body.appendChild(container);
-});
-
-afterEach(() => {
-  unmountComponentAtNode(container);
-  container.remove();
-  container = null;
-});
-
 it("renders <LunchPickerPanel />", () => {
-  act(() => {
-    render(<LunchPickerPanel />, container);
-  });
-  expect(container.textContent).toBe("Panel");
+  const { getByText } = render(<LunchPickerPanel />);
+  expect(getByText("Panel")).toBeTruthy();
 });
