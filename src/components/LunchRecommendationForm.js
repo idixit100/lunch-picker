@@ -51,10 +51,10 @@ function LunchRecommendationForm() {
 
   const errorWarnings = errors.map(error => <li key={0}>{error}</li>);
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="RecommendationForm" onSubmit={handleSubmit}>
       <legend>Your Lunch Recommendation</legend>
       { (disabled) ?
-        <div className="errors" style={{color: 'tomato'}}>
+        <div className="errors">
           <ul>{errorWarnings}</ul>
         </div> :
         null
