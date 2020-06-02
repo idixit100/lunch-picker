@@ -1,5 +1,31 @@
 .PickerPanel {
   background: #00887a;
-  width: 50%;
-  margin: 5% auto;
+  width: 60%;
+  height: 20rem;
+  margin: 10% auto;
+  border-radius: 6%;
+}
+
+.PickerPanel td {
+  text-align: center;
+}
+
+.PickerPanel button {
+  background-color: #77A6F7;
+  border: none;
+  padding: 1.5rem 3rem;
+  color: white;
+  border-radius: 12px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.PickerPanel button:hover {
+  background-color: rgb(127, 169, 241);
+}
+
+
+.PickerPanel button:disabled {
+  background-color: rgb(177, 206, 255);
+  cursor: not-allowed;
 }

@@ -1,6 +1,6 @@
 .PickerContainer {
   background: #77a6f7;
-  height: 10rem;
+  height: 60%;
   position: relative;
   overflow: auto;
   clip-path: polygon(

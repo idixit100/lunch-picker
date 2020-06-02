@@ -1,3 +1,8 @@
 .LunchSpotDetails {
   background: #00887a;
+  margin: 10% auto;
+}
+
+.LunchSpotDetails th {
+  text-align: left;
 }
